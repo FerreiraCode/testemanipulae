@@ -18,3 +18,7 @@ npx cypress open
 ou para rodar no modo Headless
 
 npx cypress run
+
+
+Para Vizualizar os testes manuais e seu relatório favor acessar a url a seguir: 
+https://docs.google.com/spreadsheets/d/12-CfK8xUSfmUfDFk86WDaqYNimKGLJin87SIbIS8838/edit?usp=sharing
