@@ -23,7 +23,7 @@ describe('EnvioDeReceita', () => {
    
 
 
-    cy.contains('Receita enviada').timeout(10000).should('exist');
+    cy.contains('Receita enviada').should('exist');
 
 
   });
