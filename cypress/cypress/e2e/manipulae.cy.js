@@ -1,7 +1,6 @@
 import * as variaveis from '../support/variaveis';
 import 'cypress-file-upload';
-const axios = require('axios');
-const fs = require('fs');
+
 
 describe('EnvioDeReceita', () => {
   it('Receita', () => {
