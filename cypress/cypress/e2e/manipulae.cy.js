@@ -2,6 +2,8 @@ import * as variaveis from '../support/variaveis';
 import 'cypress-file-upload';
 
 
+
+
 describe('EnvioDeReceita', () => {
   it('Receita', () => {
 
@@ -22,8 +24,12 @@ describe('EnvioDeReceita', () => {
    
 
 
-    cy.contains('Receita enviada').should('exist');
+    cy.contains('Receita enviada').should('exist')
+
+
 
 
   });
+
+
 });
